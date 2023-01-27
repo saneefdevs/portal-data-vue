@@ -1,12 +1,9 @@
 <template>
     
-      
-   
-  </template>
-  
-  <script>
+</template>
+<script>
   export default {
-    
+    name: 'Publikasi'
     
     }
   

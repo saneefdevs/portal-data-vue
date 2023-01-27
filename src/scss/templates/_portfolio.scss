@@ -4,7 +4,7 @@
 -----------------------*/
 #projects-wrap {
     position: relative;
-    background: url("../images/bg/banner_bg.jpg")no-repeat;
+   
     -webkit-background-size: cover;
     background-size: cover;
 
@@ -19,7 +19,7 @@
     top: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, .92);
+    
 }
 
 .overlay.feature-overlay {
@@ -90,7 +90,7 @@
     width: 100%;
     left: 30px;
     padding: 30px 20px;
-    background: $light;
+    
     opacity: 0;
     visibility: hidden;
     -webkit-transition: all 300ms ease-in-out;

@@ -1,8 +1,24 @@
 <template>
   <section class="banner-area">
+     <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-12 col-lg-12">
+        <div class="row">
+          <div class="col-md-12 col-lg-12 bg-st">
+            <div class="jumbotron rounded-radius text-white">
+              <h1 class="display-6 text-white">Kebahasaan Nasional</h1>
+              <p class="lead">
+                
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
     <!-- Content -->
     <div class="container">
-      <h3>Kebahasaan Nasional</h3>
+      <!-- <h3>Kebahasaan Nasional</h3> -->
       
       <div class="col-md-12 col-lg-12">
         <div class="row mb-3  mt-5 mb-5">

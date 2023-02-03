@@ -2,7 +2,23 @@
   <section class="banner-area">
     <!-- Content -->
     <div class="container">
-      <h3>Satuan Pendidikan</h3>
+    <div class="row align-items-center">
+      <div class="col-md-12 col-lg-12">
+        <div class="row">
+          <div class="col-md-12 col-lg-12 bg-st">
+            <div class="jumbotron rounded-radius text-white">
+              <h1 class="display-6 text-white">Satuan Pendidikan</h1>
+              <p class="lead">
+                
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    <div class="container">
+      <!-- <h3>Satuan Pendidikan</h3> -->
       <div class="col-md-12 col-lg-12">
         <div class="row mb-3 justify-content-center mt-5 mb-5">
           <div
@@ -72,5 +88,13 @@ export default {
 <style>
 .justify-content-center {
   text-align: left;
+}
+.bg-st{
+  background: url("http://118.98.237.151/referensi/public/backgroun-rg/2.png"),url("http://118.98.237.151/referensi/public/backgroun-rg/13.png"),linear-gradient(170.13deg,#004ab8 -28.46%,#4e21cd 35.64%,#2fb6c1 91.29%);
+    background-position: 0 100%,100%;
+    background-repeat: no-repeat;
+    background-size: contain,contain;
+    border-radius: 16px;
+    box-shadow: 0 8px 16px 6px hsl(0deg 0% 87% / 20%);
 }
 </style>

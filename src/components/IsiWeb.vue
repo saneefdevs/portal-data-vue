@@ -277,7 +277,7 @@ export default {
     background-repeat: no-repeat;
 }
 .sp-3{
-    background: url("http://118.98.237.151/referensi/public/backgroun-rg/2.png"),linear-gradient(170.13deg,#004ab8 -28.46%,#2fb6c1 98.65%);
+    background: url("http://118.98.237.151/referensi/public/backgroun-rg/6.png"),linear-gradient(170.13deg,#004ab8 -28.46%,#2fb6c1 98.65%);
     background-position: 0 1%,1%;
     background-repeat: no-repeat;
 }

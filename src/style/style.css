@@ -538,8 +538,8 @@ PAGE BANNER
   content: "";
   transition: opacity .15s linear;
   opacity: 0;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  background-color: #fff;
+  border-bottom: 1px solid rgba(41, 19, 133, 0.1);
+  background-color:#fff;
 }
 
 .fixed-top {

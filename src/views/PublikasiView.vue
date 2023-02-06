@@ -73,7 +73,7 @@ export default {
   mounted() {
     axios
       // .get("http://localhost:8080/svc/kl/ckan/v1?apikey=f05ed5ed-aa1a-4f33-a31a-60cb29e5a2be/" ,{ headers })
-      .get("http://localhost:8080/publikasi/publikasi/index?page=1&per_page=8")
+      .get("http://localhost:8080/svc/kl/pubstat/v1?page=1&per_page=8")
       .then((response) => (this.publikasis = response.data.data))
       .catch((error) => console.log(error));
     // .then(function (response) {

@@ -6,7 +6,7 @@ module.exports = defineConfig({
 
 module.exports = {
   devServer: {
-    proxy : 'http://172.16.101.74:81/',
+    proxy : 'https://api.data.kemdikbud.go.id/',
    // ws : true,
     //changeOrigin : true
 

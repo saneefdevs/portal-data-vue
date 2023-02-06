@@ -40,7 +40,7 @@ export default {
   mounted() {
     axios
       // .get("http://localhost:8080/svc/kl/ckan/v1?apikey=f05ed5ed-aa1a-4f33-a31a-60cb29e5a2be/" ,{ headers })
-      .get("http://localhost:8080/publikasi/portal/museum")
+      .get("http://localhost:8080/svc/kl/pubmuseum/v1")
       .then((response) => (this.museum = response.data))
       .catch((error) => console.log(error));
 //     .then(function (response) {

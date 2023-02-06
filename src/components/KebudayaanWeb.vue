@@ -35,8 +35,8 @@
                     <i class="fa fa-school"></i></div>
                     <div class="ms-2 c-details">
                       <h6 class="mb-0">{{ budaya.jenis }}</h6>
-                      <h3>{{ budaya.total }}</h3>
-                       <h4 class="text-kiri"><strong>Tempat</strong></h4>
+                      <h3><strong>{{ budaya.total }}</strong></h3>
+                       <h4 class="text-kiri"><strong></strong></h4>
                     </div>
                   </div>
                 </div>
@@ -90,7 +90,7 @@ export default {
   mounted() {
     axios
       // .get("http://localhost:8080/svc/kl/ckan/v1?apikey=f05ed5ed-aa1a-4f33-a31a-60cb29e5a2be/" ,{ headers })
-      .get("http://localhost:8080/publikasi/portal/cagar-budaya")
+      .get("http://localhost:8080/svc/kl/pubcagbud/v1")
       .then((response) => (this.budayas = response.data))
       .catch((error) => console.log(error));
     // .then(function (response) {

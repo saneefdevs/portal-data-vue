@@ -213,7 +213,7 @@ export default {
    
     axios
       // .get("http://localhost:8080/svc/kl/ckan/v1?apikey=f05ed5ed-aa1a-4f33-a31a-60cb29e5a2be/" ,{ headers })
-      .get("http://localhost:8080/publikasi/publikasi/index?page=1&per_page=4")
+      .get("http://localhost:8080/svc/kl/pubstat/v1?page=1&per_page=4")
       .then((response) => (this.contents = response.data.data))
       .catch((error) => console.log(error));
     // .then(function (response) {
@@ -225,14 +225,14 @@ export default {
   },
   mounted() {
     axios
-      .get("http://localhost:8080/publikasi/portal/museum")
+      .get("http://localhost:8080/svc/kl/pubmuseum/v1")
       .then((response) => (this.museume = response.data))
       .catch((error) => console.log(error));
   
   },
   onStream() {
     axios
-      .get("http://localhost:8080/publikasi/portal/cagar-budaya")
+      .get("http://localhost:8080/svc/kl/pubcagbud/v1")
       .then((response) => (this.cagbud = response.data))
       .catch((error) => console.log(error));
   

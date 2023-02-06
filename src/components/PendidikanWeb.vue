@@ -34,8 +34,8 @@
                     <i class="fa fa-school"></i></div>
                     <div class="ms-2 c-details">
                       <h6 class="mb-0">{{ content.nama }}</h6>
-                      <h3>{{ content.total }}</h3>
-                       <h4 class="text-kiri"><strong>Sekolah</strong></h4>
+                      <h3><strong>{{ content.total }}</strong></h3>
+                       <h4 class="text-kiri"><strong></strong></h4>
                     </div>
                   </div>
                 </div>
@@ -73,7 +73,7 @@ export default {
   mounted() {
     axios
       // .get("http://localhost:8080/svc/kl/ckan/v1?apikey=f05ed5ed-aa1a-4f33-a31a-60cb29e5a2be/" ,{ headers })
-      .get("http://localhost:8080/publikasi/portal/satuan-pendidikan")
+      .get("http://localhost:8080/svc/kl/pubsatpen/v1")
       .then((response) => (this.contents = response.data))
       .catch((error) => console.log(error));
     // .then(function (response) {
